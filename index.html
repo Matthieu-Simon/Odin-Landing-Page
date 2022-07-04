@@ -4,16 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/odin-landingPage/style.css">
+  <link rel="stylesheet" href="/style.css">
   <title>Landing Page</title>
 </head>
 <body>
   <header>
-    <div>
-      <div>
-        <h3>Header Logo</h3>
-      </div>
-      <div>
+    <div class="header-container">
+        <h3 class="header-logo">Header Logo</h3>
         <ul>
           <li>
             <a href="#">header link one</a>
@@ -25,57 +22,61 @@
             <a href="#">header link three</a>
           </li>
         </ul>
+    </div>
+      <div class="header-second-container">
+        <div class="header-content">
+          <h1>This website is awesome</h1>
+          <p class="hero-main-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+          <button class="btn-header" type="submit">Sign up</button>
+        </div>
+        <div class="header-img">
+          <img class="img-header" src="/thor-cover.png" alt="Thor">
+        </div>
       </div>
     </div>
   </header>
   <main>
     <div class="first-container">
       <div>
-        <h1>This website is awesome</h1>
-        <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-        <button type="submit">Sign up</button>
+        <h2>Some random information</h2>
       </div>
-      <div>
-        <img src="#" alt="#">
+      <div class="description-container">
+        <div>
+          <img class="img-main" src="/thor-cover.png" alt="Thor">
+          <p class="content-main">this is some subtext under an illustration or image</p>
+        </div>
+        <div>
+          <img class="img-main" src="/thor-cover.png" alt="Thor">
+          <p class="content-main">this is some subtext under an illustration or image</p>
+        </div>
+        <div>
+          <img class="img-main" src="/thor-cover.png" alt="Thor">
+          <p class="content-main">this is some subtext under an illustration or image</p>
+        </div>
+        <div>
+          <img class="img-main" src="/thor-cover.png" alt="Thor">
+          <p class="content-main">this is some subtext under an illustration or image</p>
+        </div>   
       </div>
     </div>
     <div class="second-container">
-      <h2>Some random information</h2>
-      <div>
-        <div>
-          <img src="#" alt="#">
-          <p>this is some subtext under an illustration or image</p>
-        </div>
-        <div>
-          <img src="#" alt="#">
-          <p>this is some subtext under an illustration or image</p>
-        </div>
-        <div>
-          <img src="#" alt="#">
-          <p>this is some subtext under an illustration or image</p>
-        </div>
-        <div>
-          <img src="#" alt="#">
-          <p>this is some subtext under an illustration or image</p>
-        </div>
-      </div>
+      <p class="text-content">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All i know is that it looks nice.</p>
+      <p class="sign-content">-Thor, God of Thunder</p>
     </div>
     <div class="third-container">
-      <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All i know is that it looks nice.</p>
-      <p>-Thor, God of Thunder</p>
-    </div>
-    <div class="fourth-container">
-      <div>
-        <h3>Call to action! It's time!</h3>
-        <p>Sign up for ou product by clicking that button right over there!</p>
-      </div>
-      <div>
-        <button type="submit">Sign up</button>
+      <div class="sign-up-container">
+        <div class="content-third-container">
+          <h3 class="title-third">Call to action! It's time!</h3>
+          <p class="content-third">Sign up for ou product by clicking that button right over there!</p>
+        </div>
+        <div class="btn-third-container">
+          <button class="btn-sign-up" type="submit">Sign up</button>
+        </div>
       </div>
     </div>
   </main>
   <footer>
-    <p>Copyright The Odin Project 2021</p>
+    <p class="footer-content">Copyright The Odin Project 2021</p>
   </footer>
 </body>
 </html>
